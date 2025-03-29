@@ -1,0 +1,81 @@
+.main_container {
+	text-align: center;
+	background: rgba(255, 255, 255, 0.9);
+	padding: 20px;
+	border-radius: 10px;
+	max-width: 750px;
+	margin: auto;
+  }
+  
+  .navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #d19958;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 5px;
+  }
+  
+  .white_btn {/*logout btn*/
+	background: white;
+	color: black;
+	padding: 5px 10px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+  }
+  
+  .container {
+	text-align: center;
+	margin-top: 20px;
+  }
+  
+  h2 {
+	font-size: 20px;
+	margin-bottom: 5px;
+  }
+  
+  input, select {
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	height: 40px;
+  }
+  
+  .buttonGroup {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	margin-bottom: 15px;
+  }
+  
+  button {
+	padding: 10px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	background: #eee;
+  }
+  
+  .selected {
+	background: #d19958;
+	color: white;
+  }
+  
+  .estimateBtn {
+	width: 100%;
+	background: #d19958;
+	color: white;
+	font-size: 16px;
+  }
+  
+  .result {
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: 18px;
+	color: #333;
+  }
+  
